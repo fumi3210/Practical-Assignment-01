@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+body .is-fixed {
+  overflow: hidden; /* 背景スクロール防止 */
+}
