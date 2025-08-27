@@ -161,3 +161,77 @@ body {
   letter-spacing: 0%;
   margin-top: 20px;
 }
+
+.contact {
+  padding-top: 58px;
+}
+
+.contact_inner {
+  position: relative;
+}
+
+.contact_img img {
+  width: 100%;
+  height: 332px;
+}
+
+.contct_contens {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact_contens-title {
+  font-family: Noto Sans JP;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.contact_contens-text {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.contct_list {
+  margin-top: 55px;
+  gap: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact_buton-blue .contact_button-blu-link {
+  display: inline-block;
+  background: #4356B7;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: Noto Sans JP;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 11px 45px;
+}
+
+.contact_buton-green .contact_button-green-link {
+  display: inline-block;
+  background: #006536;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: Noto Sans JP;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 11px 45px;
+}
