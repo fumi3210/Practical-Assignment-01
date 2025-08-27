@@ -235,3 +235,37 @@ body {
   letter-spacing: 0%;
   padding: 11px 45px;
 }
+
+.footer_inner {
+  padding: 49px 0 49px;
+  background: #333333;
+  width: 100%;
+}
+
+.footer_contens {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer_list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.footer_link {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.footer_copy {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
