@@ -1,7 +1,65 @@
-@charset "UTF-8";
 body {
   font-family: "Noto Sans JP", sans-serif;
 }
-body .is-fixed {
-  overflow: hidden; /* 背景スクロール防止 */
+
+.inner {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.header_title {
+  margin-left: 10px;
+}
+
+.header_inner {
+  padding: 24px 90px 27px;
+  display: flex;
+  align-items: center;
+}
+
+.header_logo {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.header_logo img {
+  width: 52px;
+}
+
+.header_nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.header_list {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.header_link {
+  font-family: Noto Sans JP;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.header_button {
+  text-align: center;
+  display: inline-block;
+  background: #006536;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: Noto Sans JP;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 11px 29px;
 }
