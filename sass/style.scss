@@ -102,10 +102,107 @@ letter-spacing: 0%;
     transform: translate(-50%,-50%);
     text-align: center;
 }
+.fv_contes-title{
+    font-family: Noto Sans JP;
+font-weight: 700;
+font-style: Bold;
+font-size: 28px;
+line-height: 200%;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+.fv_contens-text{
+    margin-top: 40px;
+    font-family: Noto Sans JP;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
 .fv_button{
+    margin-top: 40px;
     a{
+          text-align: center;
+    display: inline-block;
+    background: #006536;
+    border-radius: 20px ;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Noto Sans JP;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 11px 29px ;
 
     }
 }
+// About
+.About{
+    padding: 40px 0 58px ;
 
+}
+.About_inner{
+
+}
+.About_title{
+text-align: center;
+font-family: Noto Sans JP;
+font-weight: 700;
+font-style: Bold;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.About_list{
+    margin-top: 47px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px ;
+
+}
+.About_items{
+
+}
+.About_contens{
+
+}
+.About_contens-title{
+    text-align: center;
+    color: #006536;
+    margin-top: 20px;
+    font-family: Noto Sans JP;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+}
+.About_contens-text{
+    font-family: Noto Sans JP;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 175%;
+letter-spacing: 0%;
+
+    margin-top: 20px;
+
+}
+.About_img{
+    img{
+
+    }
+}
+// contact
+// footer
 
