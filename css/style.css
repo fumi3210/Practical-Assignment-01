@@ -44,7 +44,6 @@ body {
   font-weight: 700;
   font-style: Bold;
   font-size: 14px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
 }
@@ -62,4 +61,21 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   padding: 11px 29px;
+}
+
+.fv_inner {
+  position: relative;
+}
+
+.fv_img img {
+  width: 100%;
+  height: 609px;
+}
+
+.fv_contens {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
